@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Order Jasteb - Fast & Reliable</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main-card">
+            <!-- Header -->
+            <div class="header">
+                <h1>⚡ ORDER JASTEB GACOR ⚡</h1>
+                <p class="subtitle">PROSES CEPAT</p>
+                <div class="badge">AMAN TERPERCAYA</div>
+            </div>
+
+            <!-- Pilihan Paket -->
+            <div class="packages">
+                <h2>PILIH JASTEB HARGA BERAPA</h2>
+                <div class="package-grid" id="packageGrid">
+                    <!-- Paket akan diisi JavaScript -->
+                </div>
+            </div>
+
+            <!-- Total Pembayaran -->
+            <div class="total-section">
+                <h3>TOTAL PEMBAYARAN</h3>
+                <div class="total-price" id="totalPrice">Rp 0</div>
+                <p class="selected-pack" id="selectedPack">Pilih paket untuk melihat detail</p>
+            </div>
+
+            <!-- Metode Pembayaran -->
+            <div class="payment-methods">
+                <h3>💳 Pilih Metode Pembayaran</h3>
+                <div class="method-buttons">
+                    <button class="method-btn dana" data-method="dana">DANA</button>
+                    <button class="method-btn qris" data-method="qris">QRIS</button>
+                </div>
+                <div id="selectedMethod" class="selected-method"></div>
+            </div>
+
+            <!-- Tombol Order Via WA -->
+            <button class="order-btn" id="orderBtn">📲 ORDER VIA WHATSAPP</button>
+
+            <!-- Status Pembayaran -->
+            <div class="status-card" id="statusCard" style="display: none;">
+                <div class="status-header">✅ PEMBAYARAN BERHASIL!</div>
+                <div class="status-body">
+                    <p>Result telah berhasil ditambahkan ke akun Anda</p>
+                    <p><strong>Jumlah Result:</strong> <span id="resultAmount">0</span></p>
+                    <p><strong>Status:</strong> <span class="success">✓ Berhasil Diproses</span></p>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer">
+                <p>🔒 Transaksi aman dan terenkripsi</p>
+                <p>⏱️ Pembayaran akan diverifikasi </p>
+                </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
